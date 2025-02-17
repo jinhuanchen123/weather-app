@@ -1,0 +1,86 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Top Bar */
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cityInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: white;
+  color: black;
+}
+
+.search-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.search-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Center Bar */
+.center-bar {
+  margin-top: 20px;
+}
+
+.location {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.condition_icon {
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+}
+
+.temperature {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Bottom Bar */
+.bottom-bar {
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.humidity,
+.wind-speed {
+  font-size: 16px;
+  margin-top: 5px;
+}
